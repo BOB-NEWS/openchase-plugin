@@ -3,7 +3,18 @@
   "mcpServers": {
     "openchase": {
       "type": "streamable-http",
-      "url": "https://mcp.openchase.ai/mcp"
+      "url": "https://mcp.openchase.ai/mcp",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "baseScopes": ["search", "offline_access"]
+          }
+        }
+      }
     }
   }
 }

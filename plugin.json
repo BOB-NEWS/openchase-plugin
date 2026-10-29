@@ -5,6 +5,34 @@
   "description": "See what publications and people are posting right now on X, Reddit, YouTube, Instagram, TikTok and more, and build OpenChase search into your own code.",
   "author": {"name": "CuriousCats", "email": "comms@curiouscats.ai", "url": "https://openchase.ai"},
   "homepage": "https://openchase.ai",
+  "repository": "https://github.com/BOB-NEWS/openchase-plugin",
   "license": "MIT",
-  "keywords": ["search", "social", "real-time", "reddit", "x", "youtube", "news"]
+  "keywords": ["search", "social", "real-time", "reddit", "x", "youtube", "news"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "OpenChase",
+        "shortDescription": "Live social and news search",
+        "longDescription": "Search recent public posts and articles across social platforms and publications. Find reactions to people, companies, products, and events, then open selected results with links to their original sources.",
+        "developerName": "CuriousCats",
+        "category": "Data & Analytics",
+        "capabilities": ["Search public social posts", "Open source posts and articles"],
+        "websiteURL": "https://openchase.ai",
+        "supportURL": "https://openchase.ai/contact",
+        "privacyPolicyURL": "https://openchase.ai/privacy.html",
+        "termsOfServiceURL": "https://openchase.ai/terms",
+        "defaultPrompt": [
+          "What are people saying about OpenAI today?",
+          "Find recent Reddit posts about electric vehicles.",
+          "Show recent reactions to the latest product launch."
+        ],
+        "brandColor": "#243EDE",
+        "composerIcon": "./assets/openchase-icon.png",
+        "logo": "./assets/openchase-icon.png"
+      },
+      "publication": {
+        "release_notes": "Initial directory submission for OpenChase social search and API development skills."
+      }
+    }
+  }
 }
