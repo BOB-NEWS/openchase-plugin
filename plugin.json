@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "openchase",
+  "version": "1.0.0",
+  "description": "See what publications and people are posting right now on X, Reddit, YouTube, Instagram, TikTok and more, and build OpenChase search into your own code.",
+  "author": {"name": "CuriousCats", "email": "comms@curiouscats.ai", "url": "https://openchase.ai"},
+  "homepage": "https://openchase.ai",
+  "license": "MIT",
+  "keywords": ["search", "social", "real-time", "reddit", "x", "youtube", "news"]
+}
