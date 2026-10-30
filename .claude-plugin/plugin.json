@@ -1,7 +1,7 @@
 {
   "name": "openchase",
   "displayName": "OpenChase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "See what publications and people are posting right now on X, Reddit, YouTube, Instagram, TikTok and more, and build OpenChase search into your own code.",
   "author": {"name": "CuriousCats", "url": "https://openchase.ai"},
   "homepage": "https://openchase.ai",
