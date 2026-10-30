@@ -21,9 +21,9 @@ YouTube, Instagram, TikTok and more, from your AI assistant or your own code.
 
 Sign in when asked (your browser opens; approve once). Or send an API key as
 `Authorization: Bearer oc_live_...`: create one at https://openchase.ai/connect
-(Keys tab). During early access an account needs an invite code; new accounts
-get 10 free credits. Credits cost ₹180 per 1,000 in India (GST included) and
-never expire; $2 per 1,000 elsewhere is coming soon.
+(Keys tab). New accounts get 10 free credits. Credits cost ₹180 per 1,000 in
+India (GST included) and $2 per 1,000 elsewhere (local tax included), and
+never expire.
 
 Once connected, try: "What are people saying about OpenAI today?"
 
